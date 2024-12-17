@@ -16,9 +16,15 @@ header nav a {
     text-decoration: none;
 }
 .hero {
+    background: url('istockphoto-1560146661-612x612.jpg') no-repeat center center/cover;
+    color: white;
     text-align: center;
-    padding: 100px;
-    background-color: #f4f4f4;
+    padding: 150px 20px;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
 }
 .button {
     display: inline-block;
@@ -33,10 +39,4 @@ header nav a {
     height: auto;
 }
 
-.hero {
-    background: url('istockphoto-1560146661-612x612.jpg') no-repeat center center/cover;
-    color: white;
-    text-align: center;
-    padding: 100px 20px;
-}
 
