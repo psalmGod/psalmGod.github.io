@@ -32,3 +32,11 @@ header nav a {
     width: 100%;
     height: auto;
 }
+
+.hero {
+    background: url('istockphoto-1560146661-612x612.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
