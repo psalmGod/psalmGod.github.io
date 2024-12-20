@@ -15,23 +15,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
         <h1>PremiumWasabiUsa</h1>
         <nav>
             <a href="index.html">Home</a>
             <a href="product.html">Products</a>
-            <a href="cart.html">Cart</a>
+            <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
             <a href="signin.html">Sign In</a>
             <a href="contact.html">Contact</a>
         </nav>
     </header>
 
+    <!-- Hero Section -->
     <section class="hero">
         <h2>Welcome to PremiumWasabiUsa</h2>
-        <p>Shop premium products at unbeatable prices!</p>
-        <a href="product.html" class="button">View Products</a>
+        <p>Discover high-quality products at unbeatable prices!</p>
+        <a href="product.html" class="button">Shop Now</a>
     </section>
 
+    <!-- Featured Products -->
     <section class="featured-products">
         <h2>Featured Products</h2>
         <div class="products">
@@ -39,19 +42,21 @@
                 <img src="images/product1.jpg" alt="Product 1">
                 <h3>Product 1</h3>
                 <p>$19.99</p>
-                <a href="cart.html" class="button">Add to Cart</a>
+                <button onclick="addToCart('Product 1', 19.99)">Add to Cart</button>
             </div>
             <div class="product-card">
                 <img src="images/product2.jpg" alt="Product 2">
                 <h3>Product 2</h3>
                 <p>$29.99</p>
-                <a href="cart.html" class="button">Add to Cart</a>
+                <button onclick="addToCart('Product 2', 29.99)">Add to Cart</button>
             </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 PremiumWasabiUsa. All rights reserved.</p>
+        <p>&copy; 2024 PremiumWasabiUsa</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
